@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #f1c1b7;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: algerian;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#back{
+    background-image: url(https://img.freepik.com/premium-photo/beauty-salon-interior_874813-48552.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+
+}
+
+#intro{
+    background-color: #f9f9f9;
+    padding: 5%;
+}
+
+.cta-btn {
+    background-color: #f1c1b7;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #f1c1b7;
+    color: #000000;
+}
+
+/* Services Section */
+.services-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.service-item h3 {
+    color: #f1c1b7;
+}
+
+/* Gallery Section */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact{
+    background-color: gray;
+}
+.contact-details {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #f8c7af;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+
